@@ -62,8 +62,3 @@ class InteractiveDictionary {
 }
 
 module.exports = InteractiveDictionary;
-
-const dictionary = new InteractiveDictionary(5);
-console.log(dictionary.getIdealStarters());
-console.log(dictionary.matchWords("rhi", "duklqupmayet"));
-console.log(dictionary.getWords());

@@ -16,3 +16,9 @@ console.log(dictionary.matchWords("rhi", "duklqupmayet"));
  */
 console.log(dictionary.getWords()); // returns all words in dictionary
 ```
+
+Switch dictionary source to use [10,000 word corpus](https://raw.githubusercontent.com/first20hours/google-10000-english/master/google-10000-english-usa-no-swears-medium.txt) using second param in initialization. Consider doing this if performance needs work.
+
+```js
+const corpusDictionary = new InteractiveDictionary(5, true);
+```

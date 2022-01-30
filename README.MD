@@ -5,6 +5,7 @@ Sample uses:
 ```js
 const dictionary = new InteractiveDictionary(5); // Initialize dictionary of 5 letter words
 console.log(dictionary.getIdealStarters()); // [ 'arose', 'oreas', 'seora' ]
+// params: (letters to include, letters to exclude)
 console.log(dictionary.matchWords("rhi", "duklqupmayet"));
 /**
  * ['birch', 'chiro', 'chirr',

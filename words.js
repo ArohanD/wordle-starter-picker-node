@@ -1,13 +1,14 @@
 /** words from https://raw.githubusercontent.com/dwyl/english-words/master/words_dictionary.json */
-const rawWords = require("./words.json");
+const rawWords = require("./rawWords");
+const corpus = require("./corpus.js");
 
 class InteractiveDictionary {
-  constructor(numLetters) {
-    const allWords = Object.keys(rawWords);
+  constructor(numLetters, useCorpus = false) {
+    const wordArray = useCorpus ? corpus : rawWords;
     const filter = (word, numLetters) => {
       return word.length === numLetters;
     };
-    this.dictionary = allWords.filter((word) => filter(word, numLetters));
+    this.dictionary = wordArray.filter((word) => filter(word, numLetters));
   }
 
   getWords() {

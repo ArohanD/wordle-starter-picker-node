@@ -1,4 +1,4 @@
-Quick class to help pick an ideal starter word, or check potential words if you get desperate. Either import the class or start throwing logs at the bottom of words.js. I like [nodemon](https://www.npmjs.com/package/nodemon) for development. [Dictionary source](https://raw.githubusercontent.com/dwyl/english-words/master/words_dictionary.json).
+Quick class to help pick an ideal starter word, or check potential words if you get desperate. Jump in to `playground.js` for quick start. I like [nodemon](https://www.npmjs.com/package/nodemon) for development. [Dictionary source](https://raw.githubusercontent.com/dwyl/english-words/master/words_dictionary.json).
 
 Sample uses:
 
